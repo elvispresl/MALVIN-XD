@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~0iERyJQC#lvwLW6Ce_ZbRzaqgYpUI_lsvl4hwzh7uuckviPDOHpU",
+SESSION_ID: process.env.SESSION_ID |malvin~8nE1SKRa#IQQhFJNXhlX9MuB1Kx_36FY3NxjERUJOjBvNwn3kalY| "malvin~0iERyJQC#lvwLW6Ce_ZbRzaqgYpUI_lsvl4hwzh7uuckviPDOHpU",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -77,10 +77,10 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
               DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
 // add bot owner name    
 
-        READ_MESSAGE: process.env.READ_MESSAGE || "true",
+        READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "true",
+                 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
@@ -88,22 +88,22 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
-            AUTO_VOICE: process.env.AUTO_VOICE || "true",
+            AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 
-        AUTO_STICKER: process.env.AUTO_STICKER || "true",
+        AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "true",
+              AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "true",
+        AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "false",
